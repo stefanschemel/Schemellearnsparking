@@ -12,7 +12,7 @@ public class gui extends JPanel implements ActionListener
 	Image map;
 	int key,Auto_X,Auto_Y;
 	int x_Car,y_Car;
-//	sallleeeeee
+//	mal schauen was jetzt passiert
 	public gui()
 	{
 		setFocusable(true);
