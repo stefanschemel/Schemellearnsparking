@@ -3,36 +3,28 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-
 public class frame  extends JFrame implements ActionListener{
 
 	private JButton schliessen;
 	private JButton einstellung;
 	private JButton info;
 	private JButton ende;
-	private static Image menue;
 
 	public static void main(String[] args)
 	{
-			frame frame= new frame("Menü");
+			frame frame = new frame("Menü");
 			frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			frame.setSize(992,640);
 			
-			
-			ImageIcon u = new ImageIcon("C:/Users/Stefan/Documents/Schule/TG 12-2/CT-Becker/Eclipse/Schemellearnsparking/src/menue.png");
-			menue = u.getImage();
-			
 			frame.setLayout(null);
 			frame.setVisible(true);
-
-
 	}
 
-	
-	
 	public frame(String title)
 	{
 		super(title);
+		
+		setContentPane(new JLabel(new ImageIcon("C:/Users/SCHEMPIL/Documents/GitHub/Schemellearnsparking/images/menue.png")));
 		
 		schliessen = new JButton("Spiel starten");
 		schliessen.setBounds(420,280,160,40);
@@ -57,9 +49,7 @@ public class frame  extends JFrame implements ActionListener{
 	
 	public void paint (Graphics g)
 	{
-		super.paint(g);
-		Graphics2D f2 =(Graphics2D) g;
-		f2.drawImage(menue,0,0,null);
+		super.paint(g);		
 	}
 	
 	

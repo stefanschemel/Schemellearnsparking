@@ -16,7 +16,7 @@ public class gui extends JPanel implements ActionListener
 	public gui()
 	{
 		setFocusable(true);
-		ImageIcon u = new ImageIcon("/Schemellearnsparking/src/Level1.png");
+		ImageIcon u = new ImageIcon("C:/Users/SCHEMPIL/Documents/GitHub/Schemellearnsparking/images/Level1.png");
 		map = u.getImage();
 
 		addKeyListener(new AL());	//AktionListener aufrufen und aktivieren
