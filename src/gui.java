@@ -12,11 +12,11 @@ public class gui extends JPanel implements ActionListener
 	Image map;
 	int key,Auto_X,Auto_Y;
 	int x_Car,y_Car;
-//	sallleeeeee
+
 	public gui()
 	{
 		setFocusable(true);
-		ImageIcon u = new ImageIcon("C:/Users/Stefan/Documents/Schule/TG 12-2/CT-Becker/Eclipse/Schemellearnsparking/src/Level1.png");
+		ImageIcon u = new ImageIcon("/Schemellearnsparking/src/Level1.png");
 		map = u.getImage();
 
 		addKeyListener(new AL());	//AktionListener aufrufen und aktivieren
