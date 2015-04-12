@@ -24,7 +24,7 @@ public class frame  extends JFrame implements ActionListener{
 	{
 		super(title);
 		
-		setContentPane(new JLabel(new ImageIcon("C:/Users/SCHEMPIL/Documents/GitHub/Schemellearnsparking/images/menue.png")));
+		setContentPane(new JLabel(new ImageIcon("C:/Users/Stefan/Documents/GitHub/Schemellearnsparking/images/menue.png")));
 		
 		schliessen = new JButton("Spiel starten");
 		schliessen.setBounds(420,280,160,40);
